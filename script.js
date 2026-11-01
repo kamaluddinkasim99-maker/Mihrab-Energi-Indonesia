@@ -144,7 +144,7 @@ function escapeHTML(value) {
 
 /* ===== Mihrab Energi Indonesia — formulir pendaftaran masjid =====
    Ganti nomor di bawah dengan nomor WhatsApp resmi perusahaan (format 62...). */
-const MIHRAB_WHATSAPP = "62XXXXXXXXXX";
+const MIHRAB_WHATSAPP = "6281211742710";
 
 const daftarForm = document.getElementById("daftarForm");
 
