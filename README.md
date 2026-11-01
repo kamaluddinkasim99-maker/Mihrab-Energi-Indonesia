@@ -21,3 +21,14 @@ Struktur dan gaya mengikuti website Pro Mutu Andalan (HTML + CSS + JavaScript mu
 ## Publikasi lewat GitHub Pages
 
 Settings → Pages → Deploy from a branch → `main` / root.
+
+## Kredit foto (Unsplash License — bebas pakai, termasuk komersial)
+
+- Masjid Agung Madaniyah, Karanganyar — Arif Hida (@wwmr)
+- Masjid Jami Malang — Mochamad Arief (@mochawalk)
+- Jabat tangan — Cytonn Photography (@cytonn_photography)
+- Charger kendaraan listrik — Haberdoedas (@haberdoedas)
+- Mobil listrik sedang mengisi daya — Michael Förtsch (@michael_f)
+- Mengetik di ponsel — Chidera Faustina Okeke (@thefourthwxll)
+
+Ilustrasi (`ilustrasi-*.svg`) tetap dipakai untuk Cara Kerja, Skema Syariah, Lokasi, dan FAQ, serta menjadi cadangan otomatis bila foto gagal dimuat.

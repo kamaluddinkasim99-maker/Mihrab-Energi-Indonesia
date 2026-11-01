@@ -1254,3 +1254,43 @@ a.post-thumb {
 .article-img-daftar { background-image: url("ilustrasi-daftar.svg"); }
 .article-img-masjid-jalan { background-image: url("ilustrasi-masjid-jalan.svg"); }
 .article-img-syariah { background-image: url("ilustrasi-syariah.svg"); }
+
+/* ===== Foto asli (Unsplash, bebas pakai) — ilustrasi tetap jadi cadangan bila foto gagal dimuat ===== */
+.post-image {
+  background-image:
+    url("https://images.unsplash.com/photo-1683884669701-0636fb4d1523?auto=format&fit=crop&w=1400&q=80"),
+    url("ilustrasi-hero.svg");
+  background-position: center;
+}
+
+.mbg-snapshot-image {
+  background-image:
+    url("https://images.unsplash.com/photo-1521791136064-7986c2920216?auto=format&fit=crop&w=900&q=80"),
+    url("ilustrasi-kemitraan.svg");
+}
+
+.thumb-2,
+.article-img-masjid-jalan {
+  background-image:
+    url("https://images.unsplash.com/photo-1643522058235-6530723ce22b?auto=format&fit=crop&w=1200&q=80"),
+    url("ilustrasi-masjid-jalan.svg");
+}
+
+.thumb-4,
+.article-img-teknologi {
+  background-image:
+    url("https://images.unsplash.com/photo-1744973179090-73ec820176e9?auto=format&fit=crop&w=1200&q=80"),
+    url("ilustrasi-teknologi.svg");
+}
+
+.article-img-manfaat {
+  background-image:
+    url("https://images.unsplash.com/photo-1692061157268-b128a8f37d6d?auto=format&fit=crop&w=1200&q=80"),
+    url("ilustrasi-manfaat.svg");
+}
+
+.article-img-daftar {
+  background-image:
+    url("https://images.unsplash.com/photo-1760349748488-bd2a7ef25ea0?auto=format&fit=crop&w=1200&q=80"),
+    url("ilustrasi-daftar.svg");
+}
