@@ -1294,3 +1294,96 @@ a.post-thumb {
     url("https://images.unsplash.com/photo-1760349748488-bd2a7ef25ea0?auto=format&fit=crop&w=1200&q=80"),
     url("ilustrasi-daftar.svg");
 }
+
+/* ===== Header dengan foto bergantian (crossfade) ===== */
+.site-header {
+  position: relative;
+  overflow: hidden;
+  background: #0A3F33;
+}
+
+.header-slides {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+}
+
+.header-slides .slide {
+  position: absolute;
+  inset: 0;
+  background-size: cover;
+  background-position: center;
+  opacity: 0;
+  animation: headerFade 30s infinite;
+}
+
+.slide-1 { background-image: url("https://images.unsplash.com/photo-1683884669701-0636fb4d1523?auto=format&fit=crop&w=1800&q=75"); animation-delay: 0s; }
+.slide-2 { background-image: url("https://images.unsplash.com/photo-1692061157268-b128a8f37d6d?auto=format&fit=crop&w=1800&q=75"); animation-delay: 6s; }
+.slide-3 { background-image: url("https://images.unsplash.com/photo-1757143091093-26a27d102cfa?auto=format&fit=crop&w=1800&q=75"); animation-delay: 12s; background-position: center 30%; }
+.slide-4 { background-image: url("https://images.unsplash.com/photo-1643522058235-6530723ce22b?auto=format&fit=crop&w=1800&q=75"); animation-delay: 18s; }
+.slide-5 { background-image: url("https://images.unsplash.com/photo-1744973179090-73ec820176e9?auto=format&fit=crop&w=1800&q=75"); animation-delay: 24s; }
+
+@keyframes headerFade {
+  0%   { opacity: 0; transform: scale(1.08); }
+  5%   { opacity: 1; }
+  20%  { opacity: 1; }
+  25%  { opacity: 0; transform: scale(1); }
+  100% { opacity: 0; transform: scale(1); }
+}
+
+/* Lapisan hijau agar logo dan nama tetap terbaca */
+.site-header::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  background: linear-gradient(90deg, rgba(10, 63, 51, 0.94) 0%, rgba(10, 63, 51, 0.78) 45%, rgba(10, 63, 51, 0.45) 100%);
+}
+
+.site-header .header-wrapper {
+  position: relative;
+  z-index: 2;
+  min-height: 170px;
+}
+
+.site-header .brand-text h1,
+body.dark-mode .site-header .brand-text h1 {
+  color: #FFFFFF;
+  text-shadow: 0 2px 12px rgba(0, 0, 0, 0.35);
+}
+
+.site-header .brand-text p {
+  color: #F2C94C;
+}
+
+.site-header .theme-toggle,
+.site-header .menu-toggle {
+  background: rgba(255, 255, 255, 0.14);
+  border: 1px solid rgba(255, 255, 255, 0.55);
+  color: #FFFFFF;
+}
+
+.site-header .theme-toggle:hover,
+.site-header .menu-toggle:hover {
+  background: rgba(255, 255, 255, 0.28);
+}
+
+@media (max-width: 720px) {
+  .site-header .header-wrapper {
+    min-height: 120px;
+  }
+
+  .site-header::after {
+    background: rgba(10, 63, 51, 0.82);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .header-slides .slide {
+    animation: none;
+  }
+
+  .header-slides .slide-1 {
+    opacity: 1;
+  }
+}

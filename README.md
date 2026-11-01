@@ -30,5 +30,6 @@ Settings → Pages → Deploy from a branch → `main` / root.
 - Charger kendaraan listrik — Haberdoedas (@haberdoedas)
 - Mobil listrik sedang mengisi daya — Michael Förtsch (@michael_f)
 - Mengetik di ponsel — Chidera Faustina Okeke (@thefourthwxll)
+- Jamaah muslimah tersenyum — SMKN 1 Gantar (@smkn1gantar)
 
 Ilustrasi (`ilustrasi-*.svg`) tetap dipakai untuk Cara Kerja, Skema Syariah, Lokasi, dan FAQ, serta menjadi cadangan otomatis bila foto gagal dimuat.
