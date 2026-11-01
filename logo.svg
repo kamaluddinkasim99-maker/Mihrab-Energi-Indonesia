@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 240" role="img" aria-label="Logo Mihrab Energi Indonesia">
+  <path d="M44 222 V118 C44 74 72 44 100 20 C128 44 156 74 156 118 V222" fill="none" stroke="#0F5B4A" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="22" y1="222" x2="178" y2="222" stroke="#0F5B4A" stroke-width="16" stroke-linecap="round"/>
+  <polygon points="113,74 76,148 99,148 88,198 128,120 104,120" fill="#E0A526"/>
+</svg>
