@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Pengurus masjid mengisi formulir pendaftaran di ponsel">
+  <rect width="1200" height="750" fill="#0F5B4A"/>
+  <g fill="#164F42">
+    <rect x="720" y="330" width="360" height="420"/>
+    <path d="M760 332 C760 240 830 196 900 178 C970 196 1040 240 1040 332 Z"/>
+    <rect x="1100" y="200" width="40" height="550"/>
+    <path d="M1100 202 L1120 150 L1140 202 Z"/>
+  </g>
+  <path d="M900 140 a16 16 0 1 0 12 28 a13 13 0 1 1 -12 -28 z" fill="#E0A526"/>
+  <!-- phone -->
+  <g>
+    <rect x="420" y="110" width="290" height="540" rx="40" fill="#1F2A28"/>
+    <rect x="440" y="150" width="250" height="470" rx="20" fill="#F7F5EF"/>
+    <rect x="530" y="126" width="70" height="10" rx="5" fill="#3E4A46"/>
+    <rect x="440" y="150" width="250" height="70" rx="20" fill="#0F5B4A"/>
+    <rect x="440" y="190" width="250" height="30" fill="#0F5B4A"/>
+    <path d="M476 205 V187 C476 180 481 175 486 172 C491 175 496 180 496 187 V205 Z" fill="none" stroke="#F7F5EF" stroke-width="4"/>
+    <rect x="512" y="180" width="120" height="12" rx="6" fill="#CFE3DC"/>
+    <g fill="#FFFFFF" stroke="#CFE3DC" stroke-width="4">
+      <rect x="464" y="248" width="202" height="46" rx="10"/>
+      <rect x="464" y="314" width="202" height="46" rx="10"/>
+      <rect x="464" y="380" width="202" height="46" rx="10"/>
+      <rect x="464" y="446" width="202" height="46" rx="10"/>
+    </g>
+    <g fill="#9DC4B7">
+      <rect x="480" y="265" width="110" height="12" rx="6"/><rect x="480" y="331" width="140" height="12" rx="6"/>
+      <rect x="480" y="397" width="90" height="12" rx="6"/><rect x="480" y="463" width="120" height="12" rx="6"/>
+    </g>
+    <rect x="464" y="524" width="202" height="56" rx="14" fill="#E0A526"/>
+    <path d="M540 552 L600 552 M584 538 L600 552 L584 566" fill="none" stroke="#0F5B4A" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <!-- hand pointer + check -->
+  <g transform="translate(250 380)">
+    <circle cx="80" cy="80" r="80" fill="#E0A526"/>
+    <path d="M42 82 L70 110 L120 54" fill="none" stroke="#0F5B4A" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>

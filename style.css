@@ -1219,3 +1219,38 @@ a.post-thumb {
 .nav-wrapper a[aria-current="page"] {
   background: var(--primary-dark);
 }
+
+/* ===== Ilustrasi Mihrab Energi ===== */
+.post-image,
+.mbg-snapshot-image,
+.post-thumb,
+.article-hero-image {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.post-image {
+  background-image: url("ilustrasi-hero.svg");
+  background-position: center 50%;
+}
+
+.mbg-snapshot-image {
+  background-image:
+    url("ilustrasi-kemitraan.svg");
+}
+
+.thumb-1 { background-image: url("ilustrasi-cara-kerja.svg"); }
+.thumb-2 { background-image: url("ilustrasi-masjid-jalan.svg"); }
+.thumb-3 { background-image: url("ilustrasi-syariah.svg"); }
+.thumb-4 { background-image: url("ilustrasi-teknologi.svg"); }
+.thumb-5 { background-image: url("ilustrasi-lokasi.svg"); }
+
+.article-img-cara-kerja { background-image: url("ilustrasi-cara-kerja.svg"); }
+.article-img-manfaat { background-image: url("ilustrasi-manfaat.svg"); }
+.article-img-teknologi { background-image: url("ilustrasi-teknologi.svg"); }
+.article-img-lokasi { background-image: url("ilustrasi-lokasi.svg"); }
+.article-img-faq { background-image: url("ilustrasi-faq.svg"); }
+.article-img-daftar { background-image: url("ilustrasi-daftar.svg"); }
+.article-img-masjid-jalan { background-image: url("ilustrasi-masjid-jalan.svg"); }
+.article-img-syariah { background-image: url("ilustrasi-syariah.svg"); }

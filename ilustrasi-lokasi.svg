@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Peta Pulau Jawa dengan lima kota prioritas SPKLU">
+  <rect width="1200" height="750" fill="#CFE3DC"/>
+  <g fill="none" stroke="#FFFFFF" stroke-opacity="0.5" stroke-width="3">
+    <path d="M0 160 Q150 140 300 160 T600 160 T900 160 T1200 160"/>
+    <path d="M0 620 Q150 600 300 620 T600 620 T900 620 T1200 620"/>
+    <path d="M0 680 Q150 660 300 680 T600 680 T900 680 T1200 680"/>
+  </g>
+  <!-- Java (stylized) -->
+  <path d="M120 370 L170 335 L262 322 L360 340 L450 360 L560 360 L650 355 L722 345 L736 322 L762 345 L840 360 L930 370 L1000 380 L1060 392 L1086 412 L1070 455 L980 462 L880 456 L760 452 L700 446 L600 430 L480 420 L380 410 L280 400 L180 405 L130 392 Z" fill="#F7F5EF" stroke="#9DC4B7" stroke-width="6" stroke-linejoin="round"/>
+  <ellipse cx="975" cy="350" rx="62" ry="13" fill="#F7F5EF" stroke="#9DC4B7" stroke-width="5"/>
+  <path d="M1110 405 L1150 398 L1170 418 L1140 432 L1112 425 Z" fill="#F7F5EF" stroke="#9DC4B7" stroke-width="5"/>
+  <!-- route line -->
+  <path d="M262 330 L330 378 L655 362 L705 418 L930 376" fill="none" stroke="#0F5B4A" stroke-width="5" stroke-dasharray="12 10" stroke-linecap="round"/>
+  <!-- pins -->
+  <g>
+    <g transform="translate(262 330)"><path d="M0 0 C-22 -28 -32 -42 -32 -56 a32 32 0 0 1 64 0 c0 14 -10 28 -32 56 z" fill="#E0A526"/><circle cx="0" cy="-56" r="14" fill="#0F5B4A"/></g>
+    <g transform="translate(330 378)"><path d="M0 0 C-22 -28 -32 -42 -32 -56 a32 32 0 0 1 64 0 c0 14 -10 28 -32 56 z" fill="#0F5B4A"/><circle cx="0" cy="-56" r="14" fill="#E0A526"/></g>
+    <g transform="translate(655 362)"><path d="M0 0 C-22 -28 -32 -42 -32 -56 a32 32 0 0 1 64 0 c0 14 -10 28 -32 56 z" fill="#E0A526"/><circle cx="0" cy="-56" r="14" fill="#0F5B4A"/></g>
+    <g transform="translate(705 418)"><path d="M0 0 C-22 -28 -32 -42 -32 -56 a32 32 0 0 1 64 0 c0 14 -10 28 -32 56 z" fill="#0F5B4A"/><circle cx="0" cy="-56" r="14" fill="#E0A526"/></g>
+    <g transform="translate(930 376)"><path d="M0 0 C-22 -28 -32 -42 -32 -56 a32 32 0 0 1 64 0 c0 14 -10 28 -32 56 z" fill="#E0A526"/><circle cx="0" cy="-56" r="14" fill="#0F5B4A"/></g>
+  </g>
+  <g font-family="Plus Jakarta Sans, Arial, sans-serif" font-size="30" font-weight="800" fill="#0A3F33" text-anchor="middle">
+    <text x="262" y="240">Jakarta</text>
+    <text x="330" y="505">Bandung</text>
+    <text x="640" y="270">Semarang</text>
+    <text x="715" y="545">Yogyakarta</text>
+    <text x="930" y="285">Surabaya</text>
+  </g>
+</svg>

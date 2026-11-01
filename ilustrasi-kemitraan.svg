@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Pengurus masjid dan petugas Mihrab Energi berjabat tangan di depan masjid">
+  <rect width="1200" height="750" fill="#E8F1EE"/>
+  <circle cx="600" cy="330" r="260" fill="#CFE3DC"/>
+  <!-- mosque silhouette -->
+  <g fill="#9DC4B7">
+    <rect x="430" y="250" width="340" height="230"/>
+    <path d="M470 252 C470 160 530 120 600 100 C670 120 730 160 730 252 Z"/>
+    <rect x="800" y="140" width="40" height="340"/>
+    <path d="M800 142 L820 92 L840 142 Z"/>
+    <rect x="360" y="170" width="40" height="310"/>
+    <path d="M360 172 L380 122 L400 172 Z"/>
+  </g>
+  <path d="M600 72 a14 14 0 1 0 10 24 a11 11 0 1 1 -10 -24 z" fill="#0F5B4A"/>
+  <rect x="0" y="560" width="1200" height="190" fill="#0F5B4A"/>
+  <!-- person left: pengurus DKM, peci + baju koko -->
+  <g>
+    <rect x="404" y="402" width="120" height="170" rx="48" fill="#F7F5EF"/>
+    <rect x="456" y="420" width="16" height="70" fill="#E2DED3"/>
+    <rect x="420" y="560" width="36" height="120" rx="14" fill="#3E4A46"/>
+    <rect x="472" y="560" width="36" height="120" rx="14" fill="#3E4A46"/>
+    <circle cx="464" cy="360" r="46" fill="#C68B59"/>
+    <path d="M420 342 Q420 304 464 302 Q508 304 508 342 Z" fill="#1F2A28"/>
+    <path d="M512 440 Q560 452 596 470" fill="none" stroke="#F7F5EF" stroke-width="34" stroke-linecap="round"/>
+  </g>
+  <!-- person right: petugas, helm kuning + seragam hijau -->
+  <g>
+    <rect x="676" y="402" width="120" height="170" rx="48" fill="#1F7A62"/>
+    <rect x="690" y="470" width="92" height="12" fill="#E0A526"/>
+    <rect x="692" y="560" width="36" height="120" rx="14" fill="#1F2A28"/>
+    <rect x="744" y="560" width="36" height="120" rx="14" fill="#1F2A28"/>
+    <circle cx="736" cy="360" r="46" fill="#B9794A"/>
+    <path d="M684 346 Q684 296 736 294 Q788 296 788 346 Z" fill="#E0A526"/>
+    <rect x="678" y="340" width="116" height="12" rx="6" fill="#E0A526"/>
+    <path d="M688 440 Q640 452 604 470" fill="none" stroke="#1F7A62" stroke-width="34" stroke-linecap="round"/>
+  </g>
+  <circle cx="600" cy="472" r="24" fill="#C68B59"/>
+  <!-- sparkle bolt -->
+  <g transform="translate(560 180)">
+    <circle cx="40" cy="40" r="40" fill="#E0A526"/>
+    <polygon points="46,12 24,46 38,46 32,70 58,34 42,34" fill="#0F5B4A"/>
+  </g>
+</svg>

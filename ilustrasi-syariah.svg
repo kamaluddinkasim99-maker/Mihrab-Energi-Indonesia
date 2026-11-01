@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Timbangan seimbang antara masjid dan koin, melambangkan bagi hasil yang adil">
+  <rect width="1200" height="750" fill="#0F5B4A"/>
+  <g fill="none" stroke="#FFFFFF" stroke-opacity="0.06" stroke-width="4">
+    <path d="M100 700 V560 C100 510 130 480 160 460 C190 480 220 510 220 560 V700"/>
+    <path d="M980 700 V560 C980 510 1010 480 1040 460 C1070 480 1100 510 1100 560 V700"/>
+  </g>
+  <!-- document behind -->
+  <g transform="rotate(-6 380 380)">
+    <rect x="300" y="200" width="200" height="260" rx="12" fill="#F7F5EF"/>
+    <g stroke="#CFE3DC" stroke-width="10" stroke-linecap="round">
+      <line x1="330" y1="250" x2="470" y2="250"/><line x1="330" y1="285" x2="470" y2="285"/><line x1="330" y1="320" x2="440" y2="320"/><line x1="330" y1="355" x2="460" y2="355"/>
+    </g>
+    <circle cx="450" cy="420" r="28" fill="#E0A526"/>
+  </g>
+  <!-- scale -->
+  <rect x="592" y="210" width="16" height="340" fill="#E0A526"/>
+  <rect x="520" y="540" width="160" height="22" rx="8" fill="#E0A526"/>
+  <rect x="440" y="250" width="320" height="14" rx="7" fill="#E0A526"/>
+  <circle cx="600" cy="236" r="22" fill="#F2C94C"/>
+  <path d="M600 214 a12 12 0 1 0 9 20 a9.5 9.5 0 1 1 -9 -20 z" fill="#0F5B4A"/>
+  <g stroke="#F2C94C" stroke-width="4">
+    <line x1="450" y1="262" x2="400" y2="400"/><line x1="450" y1="262" x2="500" y2="400"/>
+    <line x1="750" y1="262" x2="700" y2="400"/><line x1="750" y1="262" x2="800" y2="400"/>
+  </g>
+  <path d="M380 400 H520 Q510 440 450 440 Q390 440 380 400 Z" fill="#E0A526"/>
+  <path d="M680 400 H820 Q810 440 750 440 Q690 440 680 400 Z" fill="#E0A526"/>
+  <!-- left pan: mosque -->
+  <g>
+    <rect x="418" y="352" width="64" height="48" fill="#F7F5EF"/>
+    <path d="M424 354 C424 330 438 320 450 316 C462 320 476 330 476 354 Z" fill="#CFE3DC"/>
+    <path d="M442 400 V380 C442 374 446 370 450 368 C454 370 458 374 458 380 V400 Z" fill="#0F5B4A"/>
+  </g>
+  <!-- right pan: coins -->
+  <g>
+    <rect x="720" y="372" width="60" height="28" fill="#E0A526"/><ellipse cx="750" cy="372" rx="30" ry="10" fill="#F2C94C"/>
+    <rect x="720" y="348" width="60" height="24" fill="#E0A526"/><ellipse cx="750" cy="348" rx="30" ry="10" fill="#F2C94C"/>
+    <rect x="720" y="326" width="60" height="22" fill="#E0A526"/><ellipse cx="750" cy="326" rx="30" ry="10" fill="#F2C94C"/>
+  </g>
+  <!-- percent badge -->
+  <g transform="translate(820 170)">
+    <circle cx="60" cy="60" r="60" fill="#F7F5EF"/>
+    <text x="60" y="76" text-anchor="middle" font-family="Plus Jakarta Sans, Arial, sans-serif" font-size="48" font-weight="800" fill="#0F5B4A">%</text>
+  </g>
+</svg>

@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Masjid di tepi jalan raya dengan penanda lokasi SPKLU">
+  <rect width="1200" height="750" fill="#DCEBE5"/>
+  <circle cx="230" cy="170" r="60" fill="#F2C94C"/>
+  <g fill="#FFFFFF" opacity="0.9">
+    <ellipse cx="900" cy="150" rx="90" ry="26"/><ellipse cx="960" cy="132" rx="60" ry="26"/>
+    <ellipse cx="420" cy="220" rx="70" ry="20"/>
+  </g>
+  <path d="M0 470 Q300 430 600 455 T1200 445 V750 H0 Z" fill="#9DC4B7"/>
+  <!-- mosque -->
+  <g>
+    <rect x="560" y="330" width="280" height="160" fill="#F7F5EF"/>
+    <path d="M600 332 C600 260 650 228 700 212 C750 228 800 260 800 332 Z" fill="#0F5B4A"/>
+    <path d="M700 168 a14 14 0 1 0 10 24 a11 11 0 1 1 -10 -24 z" fill="#E0A526"/>
+    <rect x="694" y="190" width="12" height="24" fill="#0F5B4A"/>
+    <path d="M674 490 V430 C674 412 688 400 700 394 C712 400 726 412 726 430 V490 Z" fill="#0F5B4A"/>
+    <rect x="870" y="210" width="38" height="280" fill="#F7F5EF"/>
+    <path d="M870 212 L889 164 L908 212 Z" fill="#0F5B4A"/>
+    <!-- parking with charger -->
+    <rect x="460" y="420" width="44" height="80" rx="8" fill="#FFFFFF" stroke="#0F5B4A" stroke-width="4"/>
+    <rect x="470" y="432" width="24" height="20" rx="3" fill="#0F5B4A"/>
+  </g>
+  <!-- map pin -->
+  <g transform="translate(640 40)">
+    <path d="M60 150 C20 100 0 76 0 56 a60 60 0 0 1 120 0 c0 20 -20 44 -60 94 z" fill="#E0A526"/>
+    <circle cx="60" cy="56" r="36" fill="#FFFFFF"/>
+    <polygon points="66,30 46,62 58,62 52,84 76,50 62,50" fill="#0F5B4A"/>
+  </g>
+  <!-- road -->
+  <rect x="0" y="500" width="1200" height="250" fill="#3E4A46"/>
+  <g fill="#F7F5EF">
+    <rect x="40" y="612" width="120" height="12" rx="6"/><rect x="260" y="612" width="120" height="12" rx="6"/>
+    <rect x="480" y="612" width="120" height="12" rx="6"/><rect x="700" y="612" width="120" height="12" rx="6"/>
+    <rect x="920" y="612" width="120" height="12" rx="6"/>
+  </g>
+  <!-- car driving -->
+  <g transform="translate(180 470)">
+    <path d="M0 160 V122 Q4 96 38 92 L78 90 L112 60 Q122 52 138 52 L186 52 Q204 52 212 66 L230 90 Q254 96 258 122 V160 Z" fill="#E0A526"/>
+    <path d="M90 90 L118 64 Q126 58 136 58 L156 58 V90 Z" fill="#164F42"/>
+    <path d="M166 58 L184 58 Q196 58 202 68 L216 90 L166 90 Z" fill="#164F42"/>
+    <circle cx="56" cy="162" r="26" fill="#1F2A28"/><circle cx="56" cy="162" r="10" fill="#CFE3DC"/>
+    <circle cx="204" cy="162" r="26" fill="#1F2A28"/><circle cx="204" cy="162" r="10" fill="#CFE3DC"/>
+    <g stroke="#F7F5EF" stroke-width="6" stroke-linecap="round" opacity="0.7">
+      <line x1="-60" y1="100" x2="-20" y2="100"/><line x1="-80" y1="130" x2="-30" y2="130"/>
+    </g>
+  </g>
+</svg>

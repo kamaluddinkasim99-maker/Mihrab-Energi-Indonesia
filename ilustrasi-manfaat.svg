@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Tiga penerima manfaat: masjid, pengguna kendaraan listrik, dan lingkungan">
+  <rect width="1200" height="750" fill="#F7F5EF"/>
+  <circle cx="600" cy="375" r="270" fill="none" stroke="#CFE3DC" stroke-width="10" stroke-dasharray="20 16"/>
+  <!-- center bolt -->
+  <circle cx="600" cy="375" r="90" fill="#E0A526"/>
+  <polygon points="616,310 570,385 600,385 584,445 636,360 606,360" fill="#0F5B4A"/>
+  <!-- top: mosque -->
+  <g>
+    <circle cx="600" cy="140" r="96" fill="#0F5B4A"/>
+    <rect x="556" y="140" width="88" height="62" fill="#F7F5EF"/>
+    <path d="M564 142 C564 110 582 96 600 90 C618 96 636 110 636 142 Z" fill="#E0A526"/>
+    <path d="M590 202 V178 C590 170 595 166 600 163 C605 166 610 170 610 178 V202 Z" fill="#0F5B4A"/>
+    <rect x="652" y="108" width="14" height="94" fill="#F7F5EF"/>
+    <path d="M652 110 L659 92 L666 110 Z" fill="#E0A526"/>
+  </g>
+  <!-- bottom-left: car -->
+  <g>
+    <circle cx="370" cy="545" r="96" fill="#2E9C7F"/>
+    <path d="M308 585 V562 Q310 548 328 546 L348 545 L366 528 Q372 524 380 524 L404 524 Q414 524 418 532 L428 545 Q440 548 442 562 V585 Z" fill="#F7F5EF"/>
+    <path d="M354 545 L370 531 Q374 528 380 528 L392 528 V545 Z" fill="#164F42"/>
+    <path d="M398 528 L406 528 Q412 528 416 534 L424 545 L398 545 Z" fill="#164F42"/>
+    <circle cx="340" cy="586" r="14" fill="#1F2A28"/><circle cx="410" cy="586" r="14" fill="#1F2A28"/>
+  </g>
+  <!-- bottom-right: leaf / negeri -->
+  <g>
+    <circle cx="830" cy="545" r="96" fill="#E0A526"/>
+    <path d="M790 600 C780 520 830 480 890 480 C895 545 860 595 790 600 Z" fill="#0F5B4A"/>
+    <path d="M792 598 C820 560 845 530 878 494" fill="none" stroke="#F7F5EF" stroke-width="6" stroke-linecap="round"/>
+  </g>
+  <g font-family="Plus Jakarta Sans, Arial, sans-serif" font-size="30" font-weight="800" fill="#0A3F33" text-anchor="middle">
+    <text x="820" y="150" text-anchor="start">Masjid</text>
+    <text x="230" y="690">Pengguna EV</text>
+    <text x="970" y="690">Negeri</text>
+  </g>
+</svg>

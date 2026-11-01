@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Tiga langkah: daftar, bangun SPKLU, terima bagi hasil">
+  <rect width="1200" height="750" fill="#F7F5EF"/>
+  <rect x="0" y="560" width="1200" height="190" fill="#EADFC8"/>
+  <!-- connectors -->
+  <g fill="none" stroke="#0F5B4A" stroke-width="6" stroke-dasharray="14 12" stroke-linecap="round">
+    <path d="M390 380 Q450 330 510 380"/>
+    <path d="M690 380 Q750 330 810 380"/>
+  </g>
+  <polygon points="512,366 528,388 500,392" fill="#0F5B4A"/>
+  <polygon points="812,366 828,388 800,392" fill="#0F5B4A"/>
+  <!-- step 1: clipboard -->
+  <g>
+    <circle cx="300" cy="400" r="130" fill="#CFE3DC"/>
+    <rect x="232" y="296" width="136" height="180" rx="14" fill="#FFFFFF" stroke="#0F5B4A" stroke-width="6"/>
+    <rect x="270" y="282" width="60" height="28" rx="8" fill="#0F5B4A"/>
+    <g stroke="#9DC4B7" stroke-width="10" stroke-linecap="round">
+      <line x1="258" y1="350" x2="340" y2="350"/><line x1="258" y1="385" x2="340" y2="385"/><line x1="258" y1="420" x2="310" y2="420"/>
+    </g>
+    <circle cx="352" cy="450" r="30" fill="#E0A526"/>
+    <path d="M338 450 L348 460 L366 440" fill="none" stroke="#FFFFFF" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="300" cy="590" r="26" fill="#0F5B4A"/><text x="300" y="600" text-anchor="middle" font-family="Plus Jakarta Sans, Arial, sans-serif" font-size="28" font-weight="800" fill="#FFFFFF">1</text>
+  </g>
+  <!-- step 2: charger + wrench -->
+  <g>
+    <circle cx="600" cy="400" r="130" fill="#CFE3DC"/>
+    <rect x="560" y="300" width="80" height="170" rx="14" fill="#FFFFFF" stroke="#0F5B4A" stroke-width="6"/>
+    <rect x="574" y="318" width="52" height="42" rx="6" fill="#0F5B4A"/>
+    <polygon points="603,322 588,344 598,344 594,358 612,334 602,334" fill="#E0A526"/>
+    <path d="M640 400 C690 410 690 470 650 478" fill="none" stroke="#1F2A28" stroke-width="8" stroke-linecap="round"/>
+    <g transform="rotate(-35 520 450)">
+      <rect x="505" y="420" width="22" height="90" rx="8" fill="#E0A526"/>
+      <path d="M496 420 a22 22 0 1 1 40 0 l-10 -4 v-14 h-20 v14 z" fill="#E0A526"/>
+    </g>
+    <circle cx="600" cy="590" r="26" fill="#0F5B4A"/><text x="600" y="600" text-anchor="middle" font-family="Plus Jakarta Sans, Arial, sans-serif" font-size="28" font-weight="800" fill="#FFFFFF">2</text>
+  </g>
+  <!-- step 3: mosque + coins -->
+  <g>
+    <circle cx="900" cy="400" r="130" fill="#CFE3DC"/>
+    <rect x="830" y="370" width="120" height="100" fill="#FFFFFF" stroke="#0F5B4A" stroke-width="6"/>
+    <path d="M845 372 C845 330 870 312 890 304 C910 312 935 330 935 372 Z" fill="#0F5B4A"/>
+    <path d="M876 470 V430 C876 418 883 410 890 406 C897 410 904 418 904 430 V470 Z" fill="#0F5B4A"/>
+    <g>
+      <ellipse cx="985" cy="460" rx="34" ry="12" fill="#B8861C"/><rect x="951" y="436" width="68" height="24" fill="#E0A526"/><ellipse cx="985" cy="436" rx="34" ry="12" fill="#F2C94C"/>
+      <rect x="951" y="412" width="68" height="24" fill="#E0A526"/><ellipse cx="985" cy="412" rx="34" ry="12" fill="#F2C94C"/>
+      <rect x="951" y="388" width="68" height="24" fill="#E0A526"/><ellipse cx="985" cy="388" rx="34" ry="12" fill="#F2C94C"/>
+    </g>
+    <circle cx="900" cy="590" r="26" fill="#0F5B4A"/><text x="900" y="600" text-anchor="middle" font-family="Plus Jakarta Sans, Arial, sans-serif" font-size="28" font-weight="800" fill="#FFFFFF">3</text>
+  </g>
+</svg>

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Gelembung percakapan tanya jawab tentang kemitraan masjid">
+  <rect width="1200" height="750" fill="#E8F1EE"/>
+  <g fill="#CFE3DC">
+    <rect x="160" y="560" width="200" height="190"/>
+    <path d="M180 562 C180 510 220 486 260 474 C300 486 340 510 340 562 Z"/>
+    <rect x="860" y="600" width="180" height="150"/>
+    <path d="M876 602 C876 560 910 540 950 530 C990 540 1024 560 1024 602 Z"/>
+  </g>
+  <!-- question bubble -->
+  <g>
+    <rect x="330" y="160" width="360" height="210" rx="40" fill="#0F5B4A"/>
+    <path d="M420 366 L400 440 L480 368 Z" fill="#0F5B4A"/>
+    <text x="510" y="315" text-anchor="middle" font-family="Plus Jakarta Sans, Arial, sans-serif" font-size="150" font-weight="800" fill="#E0A526">?</text>
+  </g>
+  <!-- answer bubble -->
+  <g>
+    <rect x="560" y="360" width="340" height="190" rx="40" fill="#FFFFFF" stroke="#0F5B4A" stroke-width="6"/>
+    <path d="M800 546 L840 610 L760 548 Z" fill="#FFFFFF" stroke="#0F5B4A" stroke-width="6" stroke-linejoin="round"/>
+    <rect x="772" y="534" width="40" height="18" fill="#FFFFFF"/>
+    <circle cx="640" cy="455" r="40" fill="#E0A526"/>
+    <path d="M620 455 L636 471 L662 441" fill="none" stroke="#FFFFFF" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+    <g stroke="#9DC4B7" stroke-width="14" stroke-linecap="round">
+      <line x1="710" y1="425" x2="850" y2="425"/><line x1="710" y1="465" x2="850" y2="465"/><line x1="710" y1="505" x2="800" y2="505"/>
+    </g>
+  </g>
+</svg>
