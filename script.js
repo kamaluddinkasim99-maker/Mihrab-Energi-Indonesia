@@ -142,7 +142,7 @@ function escapeHTML(value) {
     .replaceAll("'", "&#039;");
 }
 
-/* ===== Mihrab Energi Indonesia — formulir pendaftaran masjid =====
+/* ===== Amanah Energi Indonesia — formulir pendaftaran masjid =====
    Ganti nomor di bawah dengan nomor WhatsApp resmi perusahaan (format 62...). */
 const MIHRAB_WHATSAPP = "6281211742710";
 
@@ -172,7 +172,7 @@ if (daftarForm) {
     }
 
     const pesan =
-      "Assalamu'alaikum Mihrab Energi Indonesia,\n\n" +
+      "Assalamu'alaikum Amanah Energi Indonesia,\n\n" +
       "Kami ingin mendaftarkan masjid untuk kemitraan SPKLU.\n\n" +
       "Nama pengurus: " + data.nama + "\n" +
       "Jabatan: " + (data.jabatan || "-") + "\n" +

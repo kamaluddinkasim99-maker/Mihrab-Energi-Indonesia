@@ -1,6 +1,6 @@
-# Mihrab Energi Indonesia
+# Amanah Energi Indonesia
 
-Website statis PT Mihrab Energi Indonesia — jaringan SPKLU (stasiun pengisian kendaraan listrik umum) di masjid-masjid Pulau Jawa.
+Website statis PT Amanah Energi Indonesia — jaringan SPKLU (stasiun pengisian kendaraan listrik umum) di masjid-masjid Pulau Jawa.
 
 Struktur dan gaya mengikuti website Pro Mutu Andalan (HTML + CSS + JavaScript murni, tanpa build).
 
